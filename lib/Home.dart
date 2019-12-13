@@ -8,7 +8,14 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
-    return new Container();
+    return new Scaffold(
+
+      appBar: AppBar(
+        title: Text("Json"),
+        backgroundColor: Colors.green,
+      ),
+
+    );
   }
 }
 
