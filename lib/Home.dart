@@ -13,7 +13,6 @@ class _HomeState extends State<Home> {
         title: Text("Jsjklon"),
         backgroundColor: Colors.green,
       ),
-      
       body: ListView(
         children: <Widget>[
           Container(
