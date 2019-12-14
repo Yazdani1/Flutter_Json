@@ -13,6 +13,19 @@ class _HomeState extends State<Home> {
         title: Text("Jsjklon"),
         backgroundColor: Colors.green,
       ),
+      
+      body: ListView(
+        children: <Widget>[
+          
+          Container(
+            child: Center(
+              child: Text("Hello We are about to learn flutter json parsing"),
+            ),
+          ),
+          
+        ],
+      ),
+      
 
     );
   }
