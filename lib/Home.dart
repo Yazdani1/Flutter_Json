@@ -10,10 +10,10 @@ class _HomeState extends State<Home> {
     return new Scaffold(
 
       appBar: AppBar(
-        title: Text("Jsjklon"),
+        title: Text("Jsjkluyion"),
         backgroundColor: Colors.green,
       ),
-      
+
       body: ListView(
         children: <Widget>[
           Container(
