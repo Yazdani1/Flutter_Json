@@ -36,11 +36,10 @@ class _HomeState extends State<Home> {
             future: getallUser(),
           builder: (context,AsyncSnapshot <List<User>> snapshot){
               if(snapshot.hasError || !snapshot.hasData){
-                
+
                 return Center(
                   child: CircularProgressIndicator(),
                 );
-
               }else{
                 return ListView.builder(
                     itemCount: snapshot.data.length,
