@@ -74,7 +74,7 @@ class _HomeState extends State<Home> {
                               ),
 
                               SizedBox(height: 7.0,),
-                              
+
                               Divider(height: 30.0,indent: 50.0,color: Colors.black,),
 
                               Container(
@@ -87,11 +87,13 @@ class _HomeState extends State<Home> {
                                       fontSize: 18.0,
                                     ),
                                     ),
+                                    
                                     Text(user.email,
                                       style: TextStyle(
                                         fontSize: 18.0,
                                       ),
                                     ),
+
                                     Text(user.phone,
                                       style: TextStyle(
                                         fontSize: 18.0,
