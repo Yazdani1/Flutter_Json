@@ -87,7 +87,7 @@ class _HomeState extends State<Home> {
                                       fontSize: 18.0,
                                     ),
                                     ),
-                                    
+
                                     Text(user.email,
                                       style: TextStyle(
                                         fontSize: 18.0,
@@ -124,11 +124,13 @@ class _HomeState extends State<Home> {
                                         fontSize: 18.0,
                                       ),
                                     ),
+                                    
                                     Text(user.address.street,
                                       style: TextStyle(
                                         fontSize: 18.0,
                                       ),
                                     ),
+
                                     Text(user.address.suite,
                                       style: TextStyle(
                                         fontSize: 18.0,
