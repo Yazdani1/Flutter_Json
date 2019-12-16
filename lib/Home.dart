@@ -52,7 +52,6 @@ class _HomeState extends State<Home> {
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: <Widget>[
-                              
                               Container(
                                 child: Row(
                                   children: <Widget>[
@@ -73,7 +72,9 @@ class _HomeState extends State<Home> {
                                   ],
                                 ),
                               ),
+
                               SizedBox(height: 7.0,),
+                              
                               Divider(height: 30.0,indent: 50.0,color: Colors.black,),
 
                               Container(
