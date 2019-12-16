@@ -44,9 +44,7 @@ class _HomeState extends State<Home> {
                 return ListView.builder(
                     itemCount: snapshot.data.length,
                     itemBuilder: (context,index){
-                      
                       var user = snapshot.data[index];
-                      
                       return Card(
                         child: Container(
                           height: 500.0,
